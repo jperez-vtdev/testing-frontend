@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import CalendarIcon from '../../../assets/icons/calendar.svg';
-import ClockIcon from '../../../assets/icons/clock.svg';
 
 const DashboardHeader = () => {
   const [selectedTime, setSelectedTime] = useState('15 min');
@@ -66,7 +64,7 @@ const DashboardHeader = () => {
       <div className='flex flex-col gap-1 xl:flex-row xl:gap-0 items-start xl:items-center'>
         <div className='flex items-center'>
           <img
-            src={CalendarIcon}
+            src={''}
             altl='calendar icon'
             className='w-5 h-5 lg:w-9 lg:h-9 text-white mr-5'
           />
@@ -80,7 +78,7 @@ const DashboardHeader = () => {
         </div>
         <div className='flex items-center lg:ml-16'>
           <img
-            src={ClockIcon}
+            src={''}
             alt='clock'
             className='w-5 h-5 lg:w-9 lg:h-9 text-white mr-5'
           />

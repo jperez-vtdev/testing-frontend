@@ -1,11 +1,10 @@
 import React from 'react';
-import ImagePreviewIcon from '../../../assets/icons/imagePreview.svg';
-import ThreeDotsMenu from '../../../../components/ThreeDotsMenu/ThreeDotsMenu';
+import ThreeDotsMenu from './ThreeDotsMenu/ThreeDotsMenu';
 
 const HeaderBar = ({
   bgColor = 'bg-[#056000]',
   title = 'Bull Alert',
-  icon = ImagePreviewIcon,
+  icon = '',
   items = [],
 }) => {
   return (

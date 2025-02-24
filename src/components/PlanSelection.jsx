@@ -1,7 +1,7 @@
 import React from 'react';
-import DiamondIcon from '../../../assets/icons/diamond.svg';
-import LineWithDot from '../../../../components/LineWithDot/LineWithDot';
-import ManWithGoldCardImage from '../../../assets/images/man-gold-card.png';
+import DiamondIcon from '../assets/icons/diamond.svg';
+import ManWithGoldCardImage from '../assets/images/man-gold-card.png'
+import LineWithDot from './LineWithDot/LineWithDot';
 
 const PlanSelection = () => {
   const PlansDesktop = () => (

@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import HeaderBar from './HeaderBar';
-import Triangle from '../../../../components/Triangle/Triangle';
-import useBarWidths from '../../../../hooks/useBarWidth';
+import Triangle from './Triangle/Triangle';
+import useBarWidths from '../hooks/useBarWidth';
 
 const AlertList = ({
   coins,

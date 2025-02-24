@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkIcon from '../../../../assets/icons/link.svg';
 
 import './NewsCard.css';
 
@@ -14,7 +13,7 @@ const NewsCard = ({ time, title, description, link }) => {
         <h3 className='text-white font-bold text-xl mb-1'>{title}</h3>
         <p className='text-gray-400 text-lg text-white'>{description}</p>
         <div className='flex justify-end items-end ml-4 text-gray-400 hover:text-white cursor-pointer text-right w-full'>
-          <img src={LinkIcon} alt='Link Icon' />
+          <img src={''} alt='Link Icon' />
         </div>
       </div>
     </div>

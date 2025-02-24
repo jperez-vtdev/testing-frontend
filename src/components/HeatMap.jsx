@@ -1,4 +1,5 @@
-import CryptoHeatMap from '../../../../components/TradingView/CryptoHeatMap/CryptoHeatMap';
+
+import CryptoHeatMap from './CryptoHeatMap/CryptoHeatMap';
 import HeaderBar from './HeaderBar';
 
 const HeatMap = ({ menuItems }) => {

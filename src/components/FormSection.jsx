@@ -1,6 +1,5 @@
 import React from 'react';
-import SignalsIcon from '../../../assets/icons/signals.svg';
-import LineWithDot from '../../../../components/LineWithDot/LineWithDot';
+import LineWithDot from './LineWithDot/LineWithDot';
 
 const FormSection = ({ onSubmit = (e) => e.preventDefault() }) => {
   const InputStyles =
@@ -9,7 +8,7 @@ const FormSection = ({ onSubmit = (e) => e.preventDefault() }) => {
     <div className='flex flex-col items-center justify-between w-full'>
       <div className='w-full text-left mb-5'>
         <div className='flex flex-row gap-2 justify-start items-center'>
-          <img src={SignalsIcon} alt='Signals' className='w-20 h-24 mr-3' />
+          <img src={''} alt='Signals' className='w-20 h-24 mr-3' />
           <div className='w-full xl:min-w-[740px]'>
             <h2 className='w-full text-lg md:text-2xl xl:text-5xl xl:leading[3.5rem] font-black pb-1'>
               ¿Quieres un{' '}

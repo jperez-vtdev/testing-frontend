@@ -1,6 +1,6 @@
 import React from 'react';
-import AIIcon from '../../../assets/icons/ai.svg';
-import AIImage from '../../../assets/images/ai-image.png';
+import AIIcon from '../assets/icons/ai.svg';
+import AIImage from '../assets/images/ai-image.png';
 
 const TradingAISection = () => {
   return (

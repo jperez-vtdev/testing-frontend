@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import NewsCard from '../NewsCard/NewsCard';
 import HeaderBar from '../HeaderBar';
-import ErrorBoundary from '../../../../../components/ErrorBoundary';
-import { fetchCryptoPanicNews } from '../../../../../api/cryptoNews';
+import { fetchCryptoPanicNews } from '../../api/cryptoNews';
 
 const NewsSection = () => {
   const [news, setNews] = useState([]);
@@ -38,7 +37,7 @@ const NewsSection = () => {
   }, []);
 
   return (
-    <ErrorBoundary>
+    <>
       <div className='min-h-auto flex flex-col items-center'>
         <HeaderBar title='News Momentum' bgColor='bg-[#C38A00]' />
         {loading ? (
@@ -57,7 +56,7 @@ const NewsSection = () => {
           </div>
         )}
       </div>
-    </ErrorBoundary>
+    </>
   );
 };
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import MiddleAIImage from '../../../assets/images/middle-ai-image.png';
-import AsteriskIcon from '../../../assets/icons/asterisk.svg';
 
 const AlertInfo = () => {
   return (
@@ -14,7 +12,7 @@ const AlertInfo = () => {
           </span>
         </h2>
         <div className='flex items-center justify-center'>
-          <img src={AsteriskIcon} alt='Asterisk' className='w-24 mr-3' />
+          <img src={''} alt='Asterisk' className='w-24 mr-3' />
           <p className='text-sm md:text-lg 2xl:text-xl text-[var(--yellow1)]'>
             <span className='font-semibold'>Importante:</span> Este sistema
             proporciona alertas como herramientas de apoyo, no opera
@@ -26,7 +24,7 @@ const AlertInfo = () => {
 
       <div className='hidden md:block flex-shrink-0 mt-6 md:mt-0 md:ml-6'>
         <img
-          src={MiddleAIImage}
+          src={''}
           alt='Market Visualization'
           className='w-full '
         />

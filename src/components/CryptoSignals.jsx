@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ErrorBoundary from '../../../../components/ErrorBoundary';
 import HeaderBar from './HeaderBar';
 
 const CryptoSignal = ({
@@ -38,7 +37,7 @@ const CryptoSignal = ({
   };
 
   return (
-    <ErrorBoundary>
+    <>
       <div className='flex flex-col items-center'>
         <HeaderBar title={title} bgColor={headerBgColor} items={menuItems} />
         <div className='relative w-full h-64 bg-[#474747] rounded-2xl overflow-hidden p-4'>
@@ -75,7 +74,7 @@ const CryptoSignal = ({
           ))}
         </div>
       </div>
-    </ErrorBoundary>
+    </>
   );
 };
 
