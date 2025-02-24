@@ -2,13 +2,13 @@ import CryptoSignal from './CryptoSignals';
 import AlertList from './AlertList';
 import NewsSection from './NewsSection/NewsSection';
 import { useEffect, useState } from 'react';
-import { getCMCCoins } from '../../../../api/coinMarketCap';
 import HeatMap from './HeatMap';
 import TradingAISection from './TradingAISection';
 import AlertInfo from './AlertInfo';
 import PlanSelection from './PlanSelection';
 import FormSection from './FormSection';
 import DashboardHeader from './DashboardHeader';
+import { getCMCCoins } from '../api/cointMarketCap';
 
 const FreeDashboard = () => {
   const [currentTop20, setCurrentTop20] = useState([]);
